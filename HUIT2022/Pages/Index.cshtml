@@ -1,0 +1,35 @@
+﻿@page
+@using Microsoft.AspNetCore.Components
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">HUIT Blog</h1>
+
+    <hr />
+
+    <h2>最新の投稿一覧</h2>
+
+    @foreach (var article in Model.Articles)
+    {
+        <div class="articleCard">
+            <h3 class="cardTitle"><a href=@($"./post/{article.Id}")>@article.Title</a></h3>
+            <span class="cardTime">@article.GetTimeString()</span>
+            @(Html.Raw(article.Body))
+        </div>
+    }
+
+    <style>
+        .articleCard {
+            background-color: #dddddd;
+            margin: 8px;
+            padding: 6px;
+            border-radius: 6px 6px;
+            display: grid;
+            grid-template-rows: repeat(auto,3);
+            grid-template-columns: auto;
+        }
+    </style>
+</div>

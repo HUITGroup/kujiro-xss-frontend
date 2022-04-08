@@ -1,0 +1,7 @@
+C:\Users\Kota\source\repos\HUIT2022\HUIT2022\obj\Release\net6.0\PubTmp\Out\HUIT2022.exe
+C:\Users\Kota\source\repos\HUIT2022\HUIT2022\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Kota\source\repos\HUIT2022\HUIT2022\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Kota\source\repos\HUIT2022\HUIT2022\obj\Release\net6.0\PubTmp\Out\HUIT2022.dll
+C:\Users\Kota\source\repos\HUIT2022\HUIT2022\obj\Release\net6.0\PubTmp\Out\HUIT2022.deps.json
+C:\Users\Kota\source\repos\HUIT2022\HUIT2022\obj\Release\net6.0\PubTmp\Out\HUIT2022.runtimeconfig.json
+C:\Users\Kota\source\repos\HUIT2022\HUIT2022\obj\Release\net6.0\PubTmp\Out\HUIT2022.pdb

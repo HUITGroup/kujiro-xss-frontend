@@ -1,0 +1,12 @@
+﻿@page
+@model HUIT2022.Pages.CreateNewModel
+@{
+}
+
+<form method="post">
+    <label>タイトル</label>
+    <input type="text" asp-for="Article.Title" />
+    <label>本文</label>
+    <textarea asp-for="Article.Body"></textarea>
+    <input type="submit" value="投稿" />
+</form>

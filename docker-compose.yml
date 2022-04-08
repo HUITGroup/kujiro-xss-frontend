@@ -18,7 +18,7 @@ services:
         source: "./ssl.crt"
         target: "/etc/nginx/ssl/ssl.crt"
       - type: bind
-        source: "./kujiro.huit.adlay.net.key"
+        source: "./ssl.key"
         target: "/etc/nginx/ssl/ssl.key"
     ports:
       - "443:443"
