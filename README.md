@@ -1,6 +1,6 @@
 # kujiro-xss-frontend
 
-2022/04/08 に行われた「誰ですか こんなところにXSS仕掛けたのは」(kujiro) の C# 製フロントエンドです。
+2022/04/08 に行われた HUIT 新歓の 「誰ですか こんなところにXSS仕掛けたのは」(kujiro) で使用された XSS デモ用の C# 製フロントエンドです。
 
 [バックエンドはこちら](https://github.com/HUITGroup/kujiro-xss-backend)
 
