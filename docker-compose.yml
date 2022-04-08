@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+
+  nginx:
+    image: nginx
+    restart: always
+    volumes:
+      - type: bind
+        source: "./nginx.conf"
+        target: "/etc/nginx/nginx.conf"
+      - type: bind
+        source: "./ssl.crt"
+        target: "/etc/nginx/ssl/ssl.crt"
+      - type: bind
+        source: "./kujiro.huit.adlay.net.key"
+        target: "/etc/nginx/ssl/ssl.key"
+    ports:
+      - "443:443"
+    
