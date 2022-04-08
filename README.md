@@ -2,6 +2,8 @@
 
 2022/04/08 に行われた「誰ですか こんなところにXSS仕掛けたのは」(kujiro) の C# 製フロントエンドです。
 
+[バックエンドはこちら](https://github.com/HUITGroup/kujiro-xss-backend)
+
 docker compose を使用して構築します。
 
 ## 事前準備
